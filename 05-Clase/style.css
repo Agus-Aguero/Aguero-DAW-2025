@@ -1,0 +1,43 @@
+body {
+    font-family: "Encode Sans", sans-serif;
+  }
+
+#site-header .header-content .top-part, #site-header .header-content .bottom-part {
+    height: 50%;
+}
+
+#site-header .header-sections a:not(:last-child) {
+    padding-right: 40px;
+}
+
+#site-header .header-sections a {
+    font-size: 13px;
+    color: #f15a08;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.alt-font {
+    font-family: 'Space Mono', monospace;
+}
+
+
+  .salto {
+    margin-top: 2em; 
+  }
+  
+  .btn-formulario {
+    background-color: #f15a08;
+    color: white;
+    border: none;
+    padding: 7px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px; 
+  }
+
+  .btn-formulario:hover {
+    background-color: rgb(252, 251, 251); /* blanco al pasar el mouse */
+    color: #f15a08;
+    font-family: 'Space Mono', monospace;
+  }
