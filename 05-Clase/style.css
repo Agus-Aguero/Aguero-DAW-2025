@@ -1,43 +1,101 @@
 body {
-    font-family: "Encode Sans", sans-serif;
-  }
-
-#site-header .header-content .top-part, #site-header .header-content .bottom-part {
-    height: 50%;
+  font-family: "Encode Sans", sans-serif;
 }
 
-#site-header .header-sections a:not(:last-child) {
-    padding-right: 40px;
+body {
+  margin-top: 80px; /* Ajustá este valor en la altura del header */
+}
+
+/* Header: contenedor de enlaces arriba a la derecha */
+#site-header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+#site-header {
+  text-align: right;
 }
 
 #site-header .header-sections a {
-    font-size: 13px;
-    color: #f15a08;
-}
-.uppercase {
-    text-transform: uppercase;
-}
-.alt-font {
-    font-family: 'Space Mono', monospace;
+  display: inline-block;
+  margin-left: 20px; /* separación entre enlaces */
 }
 
 
-  .salto {
-    margin-top: 2em; 
-  }
-  
-  .btn-formulario {
-    background-color: #f15a08;
-    color: white;
-    border: none;
-    padding: 7px 12px;
-    font-size: 14px;
-    cursor: pointer;
-    border-radius: 4px; 
+/* Enlaces de sección */
+.header-sections a {
+  font-size: 13px;
+  color: #f15a08;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Space Mono', monospace;
+  padding-right: 40px;
+}
+
+/* Quitar padding al último */
+.header-sections a:last-child {
+  padding-right: 0;
+}
+
+
+
+
+/* Oculta el checkbox */
+#menu-toggle {
+  display: none;
+}
+
+/* Estilo del ícono de hamburguesa */
+.menu-icon {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: #f15a08;
+  padding: 10px;
+}
+
+/* Menú por defecto visible en escritorio */
+.header-sections {
+  text-align: right;
+}
+
+/* Estilo para los enlaces */
+.header-sections a {
+  display: inline-block;
+  margin-left: 20px;
+  color: #f15a08;
+  text-transform: uppercase;
+  font-family: 'Space Mono', monospace;
+  font-size: 13px;
+}
+
+/* Media query para mobile */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
   }
 
-  .btn-formulario:hover {
-    background-color: rgb(252, 251, 251); /* blanco al pasar el mouse */
-    color: #f15a08;
-    font-family: 'Space Mono', monospace;
+  .header-sections {
+    display: none;
+    flex-direction: column;
+    text-align: left;
+    background-color: #fff;
+    padding: 10px;
   }
+
+  /* Mostrar el menú cuando el checkbox está activado */
+  #menu-toggle:checked + .menu-icon + .header-sections {
+    display: flex;
+  }
+
+  .header-sections a {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
