@@ -74,7 +74,6 @@ body {
   font-size: 13px;
 }
 
-/* Media query para mobile */
 @media (max-width: 768px) {
   .menu-icon {
     display: block;
@@ -82,7 +81,6 @@ body {
 
   .header-sections {
     display: none;
-    flex-direction: column;
     text-align: left;
     background-color: #fff;
     padding: 10px;
@@ -90,7 +88,7 @@ body {
 
   /* Mostrar el menú cuando el checkbox está activado */
   #menu-toggle:checked + .menu-icon + .header-sections {
-    display: flex;
+    display: block;
   }
 
   .header-sections a {
