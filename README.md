@@ -19,7 +19,7 @@ Implementacion de css, conceptos basicos
 
 https://github.com/Agus-Aguero/Aguero-DAW-2025/tree/main/04-Clase
 
-### 05-Clase
+## 05-Clase
 Se agrego media querie para la version mobile. Agregado el icono de "hamburguesa"
 
 https://github.com/Agus-Aguero/Aguero-DAW-2025/tree/main/05-Clase
