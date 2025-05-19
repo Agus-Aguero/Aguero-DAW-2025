@@ -1,6 +1,6 @@
 # Aguero DAW 2025
-01-Clase
-Se agrego este comentario para notar el cambio en el readme. Sincrinozacion local con github
+01-Clase \ 
+Se agrego un comentario para notar el cambio en el readme. Sincrinozacion local con github
 https://github.com/Agus-Aguero/Aguero-DAW-2025/tree/main/01-Clase
 
 02-Clase
