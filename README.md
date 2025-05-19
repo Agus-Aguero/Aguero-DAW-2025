@@ -1,2 +1,21 @@
 # Aguero DAW 2025
-Desde la branch "01-clase"
+01-Clase
+Se agrego este comentario para notar el cambio en el readme. Sincrinozacion local con github
+https://github.com/Agus-Aguero/Aguero-DAW-2025/tree/main/01-Clase
+
+02-Clase
+Primera pagina en html. Visulaizacion muy basica de una noticia real
+https://github.com/Agus-Aguero/Aguero-DAW-2025/tree/main/02-Clase
+
+03-Clase
+Creacion de un formulario y vinculado a la noticia
+https://github.com/Agus-Aguero/Aguero-DAW-2025/tree/main/03-Clase
+
+04-Clase
+Implementacion de css, conceptos basicos
+https://github.com/Agus-Aguero/Aguero-DAW-2025/tree/main/04-Clase
+
+05-Clase
+Se agrego media querie para la version mobile. Agregado el icono de "hamburguesa"
+https://github.com/Agus-Aguero/Aguero-DAW-2025/tree/main/05-Clase
+
