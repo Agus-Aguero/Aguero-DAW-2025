@@ -24,3 +24,13 @@ Se agrego media querie para la version mobile. Agregado el icono de "hamburguesa
 
 https://github.com/Agus-Aguero/Aguero-DAW-2025/tree/main/05-Clase
 
+## 06-Clase
+TP de Flexbox
+
+https://github.com/Agus-Aguero/Aguero-DAW-2025/tree/main/06-Clase
+
+## 09-Clase
+Creacion de pagina de subcripcion con validaciones en JS
+
+https://github.com/Agus-Aguero/Aguero-DAW-2025/tree/main/09-Clase
+
