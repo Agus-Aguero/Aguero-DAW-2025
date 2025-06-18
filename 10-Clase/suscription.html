@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Stiles/style-suscription.css">
+    <script src="script.js" defer></script>
+    <title>Suscripcion</title>
+</head>
+<body>
+    <form id="form-suscripcion">
+  <div class="form-container">
+    <!-- Columna izquierda -->
+    <div class="form-column">
+      <label for="nombre">Nombre completo</label>
+      <input type="text" id="nombre" name="nombre" />
+      <small class="error-message" id="error-nombre"></small>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" />
+      <small class="error-message" id="error-email"></small>
+
+      <label for="password">Contraseña</label>
+      <input type="password" id="password" name="password" />
+      <small class="error-message" id="error-password"></small>
+
+      <label for="repetir-password">Repetir contraseña</label>
+      <input type="password" id="repetir-password" name="repetir-password" />
+      <small class="error-message" id="error-repetir-password"></small>
+
+      <label for="edad">Edad</label>
+      <input type="number" id="edad" name="edad" />
+      <small class="error-message" id="error-edad"></small>
+    </div>
+
+    <!-- Columna derecha -->
+    <div class="form-column">
+      <label for="telefono">Teléfono</label>
+      <input type="text" id="telefono" name="telefono" />
+      <small class="error-message" id="error-telefono"></small>
+
+      <label for="direccion">Dirección</label>
+      <input type="text" id="direccion" name="direccion" />
+      <small class="error-message" id="error-direccion"></small>
+
+      <label for="ciudad">Ciudad</label>
+      <input type="text" id="ciudad" name="ciudad" />
+      <small class="error-message" id="error-ciudad"></small>
+
+      <label for="codigo-postal">Código Postal</label>
+      <input type="text" id="codigo-postal" name="codigo-postal" />
+      <small class="error-message" id="error-codigo-postal"></small>
+
+      <label for="dni">DNI</label>
+      <input type="text" id="dni" name="dni" />
+      <small class="error-message" id="error-dni"></small>
+    </div>
+  </div>
+
+  <div class="form-submit">
+    <button type="submit">Enviar</button>
+  </div>
+</form>
+<div id="modal" class="modal oculto">
+  <div class="modal-contenido">
+    <span id="cerrar-modal" class="cerrar">&times;</span>
+    <h2>Resultado de la suscripción</h2>
+    <p id="modal-mensaje"></p>
+  </div>
+</div>
+
+</body>
+</html>
