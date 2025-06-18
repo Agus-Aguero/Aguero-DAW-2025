@@ -34,3 +34,7 @@ Creacion de pagina de subcripcion con validaciones en JS
 
 https://github.com/Agus-Aguero/Aguero-DAW-2025/tree/main/09-Clase
 
+## 10-Clase
+Llamada a Http y JS
+
+https://github.com/Agus-Aguero/Aguero-DAW-2025/tree/main/10-Clase
