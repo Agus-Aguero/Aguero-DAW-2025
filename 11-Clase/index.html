@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Clase 11-Rick and Morty</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Personajes de Rick and Morty</h1>
+
+  <!-- Botón para obtener todos los personajes -->
+  <button id="getAllBtn">Obtener todos los personajes</button>
+
+  <!-- Formulario de filtros -->
+  <form id="filterForm">
+    <h2>Filtrar personajes</h2>
+    
+    <input type="text" id="name" name="name" placeholder="Nombre">
+    
+    <select id="status" name="status">
+      <option value="">Estado</option>
+      <option value="alive">Alive</option>
+      <option value="dead">Dead</option>
+      <option value="unknown">Unknown</option>
+    </select>
+    
+    <input type="text" id="species" name="species" placeholder="Especie">
+    <input type="text" id="type" name="type" placeholder="Tipo">
+    
+    <select id="gender" name="gender">
+      <option value="">Género</option>
+      <option value="female">Female</option>
+      <option value="male">Male</option>
+      <option value="genderless">Genderless</option>
+      <option value="unknown">Unknown</option>
+    </select>
+
+    <button type="submit">Buscar con filtros</button>
+  </form>
+
+  <section id="results"></section>
+
+  <!-- Contenedor para mostrar errores -->
+  <p id="error" style="color: red;"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
