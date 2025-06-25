@@ -38,3 +38,8 @@ https://github.com/Agus-Aguero/Aguero-DAW-2025/tree/main/09-Clase
 Llamada a Http y JS
 
 https://github.com/Agus-Aguero/Aguero-DAW-2025/tree/main/10-Clase
+
+## 11-Clase
+TP de API
+
+https://github.com/Agus-Aguero/Aguero-DAW-2025/tree/main/11-Clase
